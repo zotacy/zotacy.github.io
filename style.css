@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-rows: 500px 1fr;
+    grid-template-rows: 500px 1fr 400px;
     grid-template-columns: 100px 1fr 100px;
 }
 div{
@@ -15,6 +15,18 @@ header {
     color: white;
     grid-row: 1;
     grid-column: 1 / span 3;
+}
+footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color:grey;
+    color:white;
+    text-align:center;
+    height: 30px;
+    padding: 0px 3px 0px 3px;
+    
 }
 a {
     color: white;
@@ -47,7 +59,56 @@ article {
     text-align: center;  
 }
 p {
-    margin: 10px 0px -15px 0px;
+    margin: 8px 0px -15px 0px;
+}
+.contact-me {
+    font-family:helvetica;
+    background: url("https://i.imgur.com/NB2WZDC.jpg?1");
+    background-size: cover;
+    width:100%;
+    line-height: 1.25em;
+    text-align:center;
+    color:White;
+    grid-row: 3;
+    grid-column: 1 /span 3;
+    padding: 10px 0px 50px 0px;
+}
+form{
+    background: #094663;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 0;
+    max-width: 400px;
+    margin: 15px 15px 15px auto;
+}
+input[type=text] {
+    width: 60%;
+    padding: 10px 10px;
+    margin: 5px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label{
+    text-align:right;
+}
+#email{
+    margin-left:36px;
+}
+#inquiries{
+    margin-left:15px;
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 70px;
 }
 @media (max-width: 500px) {
     h1 {
