@@ -25,8 +25,7 @@ footer {
     color:white;
     text-align:center;
     height: 30px;
-    padding: 0px 3px 0px 3px;
-    
+    padding: 3px 3px 0px 3px;
 }
 a {
     color: white;
@@ -34,8 +33,11 @@ a {
 h1 {
     font-size: 70px;
 }
+h3{
+    margin: 3px auto;
+}
 img {
-    margin: 40px 0px 0px 0px;
+    margin: 32px 0px 0px 0px;
     border: 7px;
     border-radius: 20px;
 }
@@ -54,12 +56,12 @@ li {
 }
 article {
     max-width: 600px;
-    padding: 10px 0px 20px 0px;
+    padding: 10px 0px 10px 0px;
     background: rgba(0,0,0,0);
     text-align: center;  
 }
 p {
-    margin: 8px 0px -15px 0px;
+    margin: -8px 0px -12px 0px;
 }
 .contact-me {
     font-family:helvetica;
